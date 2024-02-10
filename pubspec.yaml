@@ -1,7 +1,6 @@
 name: user_interaction_detector
 description: This package helps developers detect and monitor every gesture, tap or click made in the application even when it runs in the background
-version: 0.0.5
-author: Oluwaseyi Fatunmole <foluwaseyi.dev@gmail.com>
+version: 0.0.7
 homepage: https://github.com/seyifunmi92/User-Interaction-Detector
 
 environment:
@@ -21,16 +20,7 @@ dev_dependencies:
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.
-flutter:
-  plugin:
-    platforms:
-      android:
-        package: com.userinactivitydetector.user_interaction_detector
-        pluginClass: SessionInactivity
-      ios:
-        pluginClass: SessionInactivity
-      macos:
-        pluginClass: SessionInactivity
+
 
 
 
