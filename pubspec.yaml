@@ -1,8 +1,8 @@
 name: user_interaction_detector
 description: This package helps developers detect and monitor every gesture, tap or click made in the application even when it runs in the background
-version: 0.0.4
-author: OluwaseyiFatunmole<foluwaseyi.dev@gmail.com>
-homepage: https://github.com/seyifunmi92/user_interaction_detector/
+version: 0.0.5
+author: Oluwaseyi Fatunmole <foluwaseyi.dev@gmail.com>
+homepage: https://github.com/seyifunmi92/User-Interaction-Detector
 
 environment:
   sdk: '>=3.0.5 <4.0.0'
