@@ -25,7 +25,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.example.user_interaction_detector
+        package: com.userinactivitydetector.user_interaction_detector
         pluginClass: SessionInactivity
       ios:
         pluginClass: SessionInactivity

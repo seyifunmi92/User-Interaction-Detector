@@ -3,15 +3,17 @@ library userinactivitydetector;
 import 'dart:async';
 import 'package:flutter/material.dart';
 
+
+
 class SessionInactivity extends StatefulWidget {
   final VoidCallback onSessionTimeout;
   final Duration duration;
   final Widget child;
   const SessionInactivity(
       {super.key,
-      required this.onSessionTimeout,
-      required this.duration,
-      required this.child});
+        required this.onSessionTimeout,
+        required this.duration,
+        required this.child});
 
   @override
   State<SessionInactivity> createState() => _SessionInactivityState();
